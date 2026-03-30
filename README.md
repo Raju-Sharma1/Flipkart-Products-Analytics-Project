@@ -251,4 +251,8 @@ Link to dataset:
 
 This dataset contains product listing information from Flipkart including product categories, pricing, discounts, ratings, seller details, and sales-related attributes. It was used in this project to simulate a real-world **e-commerce analytics workflow**, enabling data preprocessing, SQL-based analysis, and business insight generation.
 
+## Disclaimer
 
+This project is an independent data analytics project created for learning and portfolio purposes.  
+The dataset used in this project was obtained from **Kaggle** and is not officially provided by Flipkart.  
+Flipkart is a trademark of its respective owners.
