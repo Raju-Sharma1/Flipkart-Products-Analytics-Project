@@ -226,8 +226,7 @@ View Name "**vw_kpi_metrics**"
 | Average Rating   | Average customer rating          |
 | Average Discount | Average discount across products |
 
-Key Insights This Project Enables
-
+# Key Insights This Project Enables
 This analytics model helps answer questions such as:
 
 Which product categories generate the highest revenue
@@ -235,7 +234,8 @@ Which products sell the most
 Which brands have the best customer ratings
 Which sellers generate the highest revenue
 Which cities have the best performing sellers
-Skills Demonstrated
+
+# Skills Demonstrated
 Data Cleaning and Validation with Python
 Data Transformation using Pandas
 SQL Data Warehouse Setup
@@ -243,20 +243,9 @@ Writing analytical SQL queries
 Creating reusable SQL Views
 Using Window Functions and CTEs
 Business KPI Analysis
-Future Improvements
 
-Potential enhancements for this project include:
-
-Designing a Star Schema Data Warehouse
-Implementing Fact and Dimension tables
-Creating a Power BI Dashboard
-Building an ETL pipeline
-Applying machine learning models for demand prediction
-Author
-
+# Author
 Raju Sharma
-
-Data Analytics | SQL | Python | Data Warehousing
 
 Credit:
 
