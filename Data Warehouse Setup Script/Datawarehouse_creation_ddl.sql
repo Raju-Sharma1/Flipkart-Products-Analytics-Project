@@ -1,13 +1,28 @@
-Use Master;
-
-CREATE DATABASE Flipkart_Analytics;
-
-Drop TABLE Flipkart_Products;
+USE master;
 GO
 
-CREATE TABLE Flipkart_Products (
+-- Create database if it does not exist
+IF DB_ID('Flipkart_Analytics') IS NULL
+BEGIN
+    CREATE DATABASE Flipkart_Analytics;
+END
+GO
+
+-- Switch to the new database
+USE Flipkart_Analytics;
+GO
+
+-- Drop table if it already exists
+IF OBJECT_ID('dbo.Flipkart_Products', 'U') IS NOT NULL
+BEGIN
+    DROP TABLE dbo.Flipkart_Products;
+END
+GO
+
+-- Create table
+CREATE TABLE dbo.Flipkart_Products (
     product_id NVARCHAR(50),
-    product_name NVARCHAR(50),
+    product_name NVARCHAR(100),
     category NVARCHAR(100),
     brand NVARCHAR(50),
     seller NVARCHAR(50),
