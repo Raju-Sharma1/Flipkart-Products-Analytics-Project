@@ -1,4 +1,4 @@
-# Flipkart Product Analytics – SQL Data Warehouse Project
+# Flipkart Product Analytics – SQL Data Warehouse and Analytics Project
 
 ## Overview
 This project demonstrates an end-to-end **data analytics workflow** using Python and SQL Server to analyze Flipkart product listing data. The objective is to transform raw product data into a structured analytical dataset and extract business insights related to **sales performance, pricing strategy, customer ratings, and seller performance**.
