@@ -8,26 +8,20 @@ The project simulates a real-world analytics pipeline including **data preproces
 ---
 
 ## Project Architecture
-Raw CSV Dataset
-│
-▼
-Data Cleaning (Python - Pandas)
-│
-▼
-Cleaned Dataset Export
-│
-▼
-SQL Server Data Warehouse
-│
-▼
-Exploratory SQL Analysis
-│
-▼
-Business Analysis Queries
-│
-▼
-Advanced SQL Analytics & KPI Metrics
 
+Raw CSV Dataset  
+↓  
+Data Cleaning (Python)  
+↓  
+Cleaned Dataset  
+↓  
+SQL Server Data Warehouse  
+↓  
+Exploratory SQL  
+↓  
+Business Analysis  
+↓  
+Advanced Analytics & KPI Metrics  
 
 ---
 
