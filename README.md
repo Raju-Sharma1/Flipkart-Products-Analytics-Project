@@ -239,8 +239,16 @@ Business KPI Analysis
 # Author
 Raju Sharma
 
-Credit:
+## Dataset Source
 
+The dataset used in this project was obtained from **Kaggle**.
 
+**Dataset:** Flipkart Retail Product Dataset  
+**Source:** Kaggle  
+
+Link to dataset:  
+**Credit** - https://www.kaggle.com/datasets/rohiteng/flipkart-retail-product-dataset
+
+This dataset contains product listing information from Flipkart including product categories, pricing, discounts, ratings, seller details, and sales-related attributes. It was used in this project to simulate a real-world **e-commerce analytics workflow**, enabling data preprocessing, SQL-based analysis, and business insight generation.
 
 
