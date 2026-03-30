@@ -58,10 +58,8 @@ The dataset contains Flipkart product listings with information about pricing, d
 
 - **Python**
 - **Pandas**
-- **NumPy**
 - **SQL Server**
 - **T-SQL**
-- **Git & GitHub**
 
 ---
 
