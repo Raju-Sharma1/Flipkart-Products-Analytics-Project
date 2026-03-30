@@ -5,13 +5,14 @@ This section is for Data Exploration (Exploratory SQL)
 */
 
 /*
-    Total Products: Total unique products.
+    Total Products: Total unique products
     -------------------------------------
 */
-/*
-    Few products have same name however different product_id's
-    Since sellers are different.
-*/
+
+IF OBJECT_ID('dbo.vw_total_unique_products', 'V') IS NOT NULL
+    DROP VIEW dbo.vw_total_unique_products;
+GO
+
 CREATE VIEW dbo.vw_total_unique_products
 AS
 SELECT
@@ -19,10 +20,16 @@ SELECT
 FROM dbo.Flipkart_Products;
 GO
 
+
 /*
-    Total Categories:
+    Total Categories
     ----------------
 */
+
+IF OBJECT_ID('dbo.vw_total_categories', 'V') IS NOT NULL
+    DROP VIEW dbo.vw_total_categories;
+GO
+
 CREATE VIEW dbo.vw_total_categories
 AS
 SELECT
@@ -30,10 +37,16 @@ SELECT
 FROM dbo.Flipkart_Products;
 GO
 
+
 /*
-    Total Brands:
+    Total Brands
     -------------
 */
+
+IF OBJECT_ID('dbo.vw_total_brands', 'V') IS NOT NULL
+    DROP VIEW dbo.vw_total_brands;
+GO
+
 CREATE VIEW dbo.vw_total_brands
 AS
 SELECT
@@ -41,11 +54,17 @@ SELECT
 FROM dbo.Flipkart_Products;
 GO
 
+
 /*
-    Category Distribution:
+    Category Distribution
     ---------------------
-Find total no. products per every category.
+    Find total no. products per category
 */
+
+IF OBJECT_ID('dbo.vw_category_distribution', 'V') IS NOT NULL
+    DROP VIEW dbo.vw_category_distribution;
+GO
+
 CREATE VIEW dbo.vw_category_distribution
 AS
 SELECT
@@ -54,6 +73,7 @@ SELECT
 FROM dbo.Flipkart_Products
 GROUP BY category;
 GO
+
 /*
 Using distinct count:
 - Removes duplicate listings of the same product sold by multiple sellers
@@ -62,9 +82,14 @@ Using distinct count:
 
 
 /*
-    Top Brands by product count:
+    Top Brands by product count
     ---------------------------
 */
+
+IF OBJECT_ID('dbo.vw_brand_product_counts', 'V') IS NOT NULL
+    DROP VIEW dbo.vw_brand_product_counts;
+GO
+
 CREATE VIEW dbo.vw_brand_product_counts
 AS
 SELECT
@@ -73,4 +98,3 @@ SELECT
 FROM dbo.Flipkart_Products
 GROUP BY brand;
 GO
-
