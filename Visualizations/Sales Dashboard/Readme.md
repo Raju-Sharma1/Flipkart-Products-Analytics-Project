@@ -8,12 +8,6 @@ The dashboard enables quick exploration of business insights by transforming ana
 
 ---
 
-## Dashboard Screenshot
-
-![Sales Dashboard](sales_dashboard.png)
-
----
-
 ## Key Business Questions Addressed
 
 This dashboard focuses on answering key business questions such as:
